@@ -1,0 +1,22 @@
+{
+  "name": "uhmercury",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "twatch": "tsc --watch",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^16.11.11",
+    "aws-sdk": "^2.1043.0",
+    "commander": "^8.3.0"
+  }
+}
